@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, rgb(75, 121, 161), rgb(40, 62, 81));
+  color: aliceblue;
+}
+.content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  width: 80vw;
+}
+.content h1 {
+  margin: 15px;
+}
+.content h3 {
+  margin-bottom: 40px;
+}
+
+.input {
+  border: 2px gray solid;
+  border-radius: 7px;
+}
+.input input {
+  width: 40rem;
+  height: 60px;
+  font-size: 24px;
+  padding: 0px 10px 0px 10px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.input button {
+  width: 4rem;
+  height: 40px;
+  font-size: 28px;
+  border: none;
+  color: aliceblue;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.clear-button {
+  width: 46rem;
+  margin: 25px 0px 25px 0px;
+  display: flex;
+  justify-content: end;
+}
+.clear-button button {
+  height: 40px;
+  width: 120px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.list {
+  margin: 25px 0px 0px 0px;
+  padding: 15px 15px 15px 15px;
+  color: black;
+  background-color: whitesmoke;
+  width: 44rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 10px;
+}
+ul {
+  list-style-type: none;
+}
+.done {
+  text-decoration: line-through;
+}
+#show-todo li {
+  display: flex;
+  align-items: center;
+}
+
+#show-todo input {
+  height: 15px;
+  width: 15px;
+}
+label {
+  font-size: 25px;
+  margin: 10px 0px 12px 10px;
+}
+.hide {
+  display: none;
+}
